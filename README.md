@@ -9,10 +9,10 @@ Quick and dirty way to start
 1. replace the images in SMVC/data/18060801-narrow_std/raw_images with your images representing _class 0_
 2. replace the images in SMVC/data/18060802-wide_std/raw_images with your images representing _class 1_
 3. delete the following folders: 
-  SMVC/data/18060801-narrow_std/training_images
-  SMVC/data/18060801-narrow_std/test_images
-  SMVC/data/18060801-wide_std/training_images
-  SMVC/data/18060801-wide_std/test_images
+  - SMVC/data/18060801-narrow_std/training_images
+  - SMVC/data/18060801-narrow_std/test_images
+  - SMVC/data/18060801-wide_std/training_images
+  - SMVC/data/18060801-wide_std/test_images
 4. run SMVC/analysis/00_preprocess/main.py
   - this recreates the train and test sets
 5. run SMVC/analysis/01_train/main.py
@@ -20,6 +20,6 @@ Quick and dirty way to start
   - training set is plotted with squares
   - the test set is plotted with circles
   
-
-
+Example how this works:
+![](SMVC/results.png?raw=true)
 
