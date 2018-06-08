@@ -26,9 +26,9 @@ The _class 1_ training set consists of colorful pictures of balls, lights etc. a
 
 The red and green areas depict the classification regions based on the training sets.
 
-The red and green circles are then the test sets of similar images than in the training set (actually the images are divided in half and the upper left corner is the training set and lower right corner is the test set). There is no overlap between test and training sets.
+The red and green squares are then the test sets of similar images than in the training set (actually the images are divided in half and the upper left corner is the training set and lower right corner is the test set). There is no overlap between test and training sets.
 
-The perfect clasificator would put all the red circles in the red area and green circles in the green area.
+The perfect clasificator would put all the red squares in the red area and green squares in the green area.
 
 ![](SMVC/results.png?raw=true)
 
