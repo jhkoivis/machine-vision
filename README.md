@@ -32,3 +32,8 @@ The perfect clasificator would put all the red squares in the red area and green
 
 ![](SMVC/results.png?raw=true)
 
+# TODO
+1. Change the folder structure to more common structure like e.g.
+  - image-net with wordnet: http://www.image-net.org
+  - CIFAR: https://www.cs.toronto.edu/~kriz/cifar.html
+  - wordnetID + featurelist + bounding box + jpg image
