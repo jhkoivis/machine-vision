@@ -4,7 +4,13 @@ batteries included machine vision classifier and analyzer.
 
 ## SMVC = Simple Machine Vision Classifier
 
-Quick and dirty way to start
+### First test run
+
+1. run SMVC/analysis/00_preprocess/main.py
+2. run SMVC/analysis/01_train/main.py
+3. This classifies the tst images
+
+### Quick and dirty way to start your own classifier
 
 1. replace the images in SMVC/data/18060801-narrow_std/raw_images with your images representing _class 0_
 2. replace the images in SMVC/data/18060802-wide_std/raw_images with your images representing _class 1_
